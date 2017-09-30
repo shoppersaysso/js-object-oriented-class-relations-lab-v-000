@@ -23,7 +23,7 @@ class Passenger {
   trips(){
     return store.trips.filter(function(trip) {
       return trip.passengerId === this.id
-    }
+    })
   }
 }
 
