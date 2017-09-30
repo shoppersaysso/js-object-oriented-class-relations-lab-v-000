@@ -6,5 +6,4 @@ class Driver {
     this.name = name
 
     }
-  }
 }
